@@ -1,1 +1,1 @@
-# rsschool-cv
+https://alexkarunny.io/rsschool-cv/cv
