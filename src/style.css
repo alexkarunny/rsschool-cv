@@ -1,0 +1,56 @@
+
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.info {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 50px 30px 10px;
+    background-color: #00a86b;
+    color: #ffffff;
+}
+
+/* Personal data block */
+
+.personal {
+    display: grid;
+    justify-items: center;
+    grid-template-areas: 
+        "name pic pic . . ."
+        "cont pic pic . . ."
+        "cont pic pic . . .";
+}
+
+.personal .name {
+    grid-area: name;
+    font-size: 40px;
+}
+
+.personal .connections {
+    grid-area: cont;
+}
+
+.personal .connections .contact {
+    margin-bottom: 10px;
+    font-size: 24px;
+    list-style-type: none;
+}
+
+.personal .connections .contact i{
+    position: relative;
+    left: -10px;
+}
+
+.personal .connections .contact a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.personal .connections .contact a:hover {
+    color: #00ff7f;
+}
+
+.personal .foto {
+    grid-area: pic;
+}
